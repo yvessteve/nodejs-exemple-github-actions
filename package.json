@@ -1,0 +1,18 @@
+{
+  "name": "jasmine-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/calculator/calculator.js",
+    "test": "jasmine",
+    "coverage": "nyc --reporter=html --reporter=text jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.6.0",
+    "nyc": "^15.1.0"
+  }
+}
